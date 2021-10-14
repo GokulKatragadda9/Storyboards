@@ -16,5 +16,6 @@ class NumberTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         colorView.layer.cornerRadius = 10
+        selectionStyle = .none
     }
 }

@@ -9,25 +9,31 @@
 /* Begin PBXBuildFile section */
 		1CC8EAB82717A182001C225D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8EAB72717A182001C225D /* AppDelegate.swift */; };
 		1CC8EABA2717A182001C225D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8EAB92717A182001C225D /* SceneDelegate.swift */; };
-		1CC8EABC2717A182001C225D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8EABB2717A182001C225D /* ViewController.swift */; };
+		1CC8EABC2717A182001C225D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8EABB2717A182001C225D /* TableViewController.swift */; };
 		1CC8EABF2717A182001C225D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8EABD2717A182001C225D /* Main.storyboard */; };
 		1CC8EAC12717A183001C225D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8EAC02717A183001C225D /* Assets.xcassets */; };
 		1CC8EAC42717A183001C225D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8EAC22717A183001C225D /* LaunchScreen.storyboard */; };
 		1CC8EACC2717A638001C225D /* NumberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8EACB2717A638001C225D /* NumberTableViewCell.xib */; };
 		1CC8EAD02717A962001C225D /* NumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8EACF2717A962001C225D /* NumberTableViewCell.swift */; };
+		1CC8EAD22717BB02001C225D /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8EAD12717BB02001C225D /* CollectionViewController.swift */; };
+		1CC8EAD42717BCA6001C225D /* NumberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8EAD32717BCA6001C225D /* NumberCollectionViewCell.swift */; };
+		1CC8EAD62717C2A6001C225D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8EAD52717C2A6001C225D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CC8EAB42717A182001C225D /* Storyboards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Storyboards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC8EAB72717A182001C225D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CC8EAB92717A182001C225D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1CC8EABB2717A182001C225D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CC8EABB2717A182001C225D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		1CC8EABE2717A182001C225D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CC8EAC02717A183001C225D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CC8EAC32717A183001C225D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CC8EAC52717A183001C225D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CC8EACB2717A638001C225D /* NumberTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberTableViewCell.xib; sourceTree = "<group>"; };
 		1CC8EACF2717A962001C225D /* NumberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTableViewCell.swift; sourceTree = "<group>"; };
+		1CC8EAD12717BB02001C225D /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		1CC8EAD32717BCA6001C225D /* NumberCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCollectionViewCell.swift; sourceTree = "<group>"; };
+		1CC8EAD52717C2A6001C225D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +68,16 @@
 			children = (
 				1CC8EAB72717A182001C225D /* AppDelegate.swift */,
 				1CC8EAB92717A182001C225D /* SceneDelegate.swift */,
-				1CC8EABB2717A182001C225D /* ViewController.swift */,
+				1CC8EABB2717A182001C225D /* TableViewController.swift */,
 				1CC8EABD2717A182001C225D /* Main.storyboard */,
 				1CC8EACB2717A638001C225D /* NumberTableViewCell.xib */,
 				1CC8EAC02717A183001C225D /* Assets.xcassets */,
 				1CC8EAC22717A183001C225D /* LaunchScreen.storyboard */,
 				1CC8EAC52717A183001C225D /* Info.plist */,
 				1CC8EACF2717A962001C225D /* NumberTableViewCell.swift */,
+				1CC8EAD12717BB02001C225D /* CollectionViewController.swift */,
+				1CC8EAD32717BCA6001C225D /* NumberCollectionViewCell.swift */,
+				1CC8EAD52717C2A6001C225D /* DetailViewController.swift */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -146,9 +155,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CC8EAD02717A962001C225D /* NumberTableViewCell.swift in Sources */,
-				1CC8EABC2717A182001C225D /* ViewController.swift in Sources */,
+				1CC8EAD42717BCA6001C225D /* NumberCollectionViewCell.swift in Sources */,
+				1CC8EABC2717A182001C225D /* TableViewController.swift in Sources */,
 				1CC8EAB82717A182001C225D /* AppDelegate.swift in Sources */,
 				1CC8EABA2717A182001C225D /* SceneDelegate.swift in Sources */,
+				1CC8EAD22717BB02001C225D /* CollectionViewController.swift in Sources */,
+				1CC8EAD62717C2A6001C225D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
