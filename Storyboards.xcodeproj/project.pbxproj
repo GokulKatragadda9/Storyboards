@@ -13,6 +13,8 @@
 		1CC8EABF2717A182001C225D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8EABD2717A182001C225D /* Main.storyboard */; };
 		1CC8EAC12717A183001C225D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8EAC02717A183001C225D /* Assets.xcassets */; };
 		1CC8EAC42717A183001C225D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8EAC22717A183001C225D /* LaunchScreen.storyboard */; };
+		1CC8EACC2717A638001C225D /* NumberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8EACB2717A638001C225D /* NumberTableViewCell.xib */; };
+		1CC8EAD02717A962001C225D /* NumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8EACF2717A962001C225D /* NumberTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1CC8EAC02717A183001C225D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CC8EAC32717A183001C225D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CC8EAC52717A183001C225D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC8EACB2717A638001C225D /* NumberTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberTableViewCell.xib; sourceTree = "<group>"; };
+		1CC8EACF2717A962001C225D /* NumberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				1CC8EAB92717A182001C225D /* SceneDelegate.swift */,
 				1CC8EABB2717A182001C225D /* ViewController.swift */,
 				1CC8EABD2717A182001C225D /* Main.storyboard */,
+				1CC8EACB2717A638001C225D /* NumberTableViewCell.xib */,
 				1CC8EAC02717A183001C225D /* Assets.xcassets */,
 				1CC8EAC22717A183001C225D /* LaunchScreen.storyboard */,
 				1CC8EAC52717A183001C225D /* Info.plist */,
+				1CC8EACF2717A962001C225D /* NumberTableViewCell.swift */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CC8EAC42717A183001C225D /* LaunchScreen.storyboard in Resources */,
+				1CC8EACC2717A638001C225D /* NumberTableViewCell.xib in Resources */,
 				1CC8EAC12717A183001C225D /* Assets.xcassets in Resources */,
 				1CC8EABF2717A182001C225D /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC8EAD02717A962001C225D /* NumberTableViewCell.swift in Sources */,
 				1CC8EABC2717A182001C225D /* ViewController.swift in Sources */,
 				1CC8EAB82717A182001C225D /* AppDelegate.swift in Sources */,
 				1CC8EABA2717A182001C225D /* SceneDelegate.swift in Sources */,
